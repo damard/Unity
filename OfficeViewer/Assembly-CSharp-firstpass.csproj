@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{CA07E9FE-718A-1401-BEC3-899CF4C056C4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>F:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>F:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <None Include="Assets\Marmoset\Shader\VertexColor\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Marmoset\Documentation\Scripting.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Marmoset\_ChangeLog.txt" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Cutout\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Occlusion\Marmoset Bumped Specular IBL Fast.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Occlusion\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Illumin\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexColor\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Marmoset\Shader\Occlusion\Marmoset Bumped Diffuse Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\_Readme.txt" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Simple Glass\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Occlusion\Marmoset Specular IBL Fast.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\MarmosetGrass.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Marmoset\Shader\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Occlusion\Marmoset Diffuse Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Simple Glass\Marmoset Bumped Specular Glow IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Terrain Distant.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Terrain Specular.shader" />
+     <None Include="Assets\Marmoset\Documentation\Mipmapped Gloss.txt" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Simple Glass\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\Tree.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Marmoset\Documentation\Sky Object.txt" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Simple Glass\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetSurf.cginc" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Simple Add Pass.shader" />
+     <None Include="Assets\Marmoset\Documentation\Terrain.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Cutout\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetCore.cginc" />
+     <None Include="Assets\Marmoset\Documentation\Lightmapping.txt" />
+     <None Include="Assets\Marmoset\Shader\VertexOcclusion\Marmoset Bumped Specular Vertex Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexOcclusion\Marmoset Bumped Diffuse Vertex Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Marmoset\Shader\Occlusion\Marmoset Specular Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Marmoset\External\Lightmapping Extended\Presets\Built-in\Low Quality.xml" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetDirect.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexColor\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Simple First Pass.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Cutout\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexOcclusion\Marmoset Bumped Diffuse Vertex Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\SoftOcclusion\SH_Vertex.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Terrain Diffuse.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Illumin\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorLeavesFast.shader" />
+     <None Include="Assets\Marmoset\Documentation\HDR.txt" />
+     <None Include="Assets\Marmoset\Shader\VertexLit\Marmoset Vertex Lit IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Occlusion\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexOcclusion\Marmoset Bumped Specular Vertex Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\MarmosetTerrain.cginc" />
+     <None Include="Assets\Marmoset\Shader\Terrain\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+     <None Include="Assets\Marmoset\Shader\Illumin\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Levels\test\BeastSettings.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Details\WavingGrass.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexOcclusion\Marmoset Specular Vertex Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Documentation\Skyshop.txt" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Simple Distant.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexColor\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetSimple.cginc" />
+     <None Include="Assets\Marmoset\Shader\Illumin\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeVertexLit.cginc" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Details\VertexLit.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Illumin\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Simple Glass\Marmoset Bumped Specular Glow IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Simple Glass\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetInput.cginc" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexOcclusion\Marmoset Diffuse Vertex Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Documentation\Material.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexLit\Marmoset Vertex Lit Specular Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\Marmoset Terrain Add Pass.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexLit\Marmoset Vertex Lit Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexColor\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Illumin\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Transparent\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexOcclusion\Marmoset Specular Vertex Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexColor\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Marmoset\Shader\Resources\Marmoset Skydome.shader" />
+     <None Include="Assets\Marmoset\Shader\Occlusion\Marmoset Bumped Specular Occ IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexLit\Marmoset Vertex Lit Specular Vertex Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Illumin\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Marmoset Bumped Diffuse IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Marmoset\Documentation\Vegetation.txt" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexColor\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Marmoset\Shader\Resources\Marmoset Skybox IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Transparent\Cutout\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetVertex.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Marmoset\Shader\Illumin\Marmoset Diffuse IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Marmoset\External\Lightmapping Extended\Presets\Built-in\High Quality.xml" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Marmoset Specular IBL Fast.shader" />
+     <None Include="Assets\Marmoset\Shader\MarmosetMobile.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Marmoset\Shader\VertexOcclusion\Marmoset Diffuse Vertex Occ IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\MarmosetSimpleTerrain.cginc" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Documentation\Shaders.txt" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Occlusion\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Occlusion\Marmoset Bumped Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Terrain\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\VertexColor\Marmoset Specular IBL.shader" />
+     <None Include="Assets\Marmoset\Shader\Mobile\Marmoset Bumped Specular IBL Fast.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

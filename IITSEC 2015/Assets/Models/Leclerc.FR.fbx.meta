@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 5147aa3aa0bd59a40aeaaf902d5e1e4a
+timeCreated: 1436098325
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object001
+    100004: Object002zzzz
+    100006: SSHLOD_BODY
+    100008: SSHLOD_IDLER
+    100010: SSHLOD_SPROCKET
+    100012: SSHLOD_TRACK_LEFT
+    100014: SSHLOD_TRACK_RIGHT
+    100016: SSHLOD_TURRET
+    100018: SSHLOD_WHEEL_01
+    100020: SSHLOD_WHEEL_02
+    100022: SSHLOD_WHEEL_03
+    100024: SSHLOD_WHEEL_04
+    100026: SSHLOD_WHEEL_05
+    100028: SSHLOD_WHEEL_06
+    100030: wheel_1_1
+    100032: wheel_1_2
+    100034: wheel_2_1
+    100036: wheel_2_2
+    100038: wheel_3_1
+    100040: wheel_3_2
+    100042: wheel_4_1
+    100044: wheel_4_2
+    100046: wheel_5_1
+    100048: wheel_5_2
+    100050: wheel_6_1
+    100052: wheel_6_2
+    100054: wheel_7_1
+    100056: wheel_7_2
+    100058: wheel_8_1
+    100060: wheel_8_2
+    100062: wheel_1_1 1
+    100064: wheel_1_2 1
+    100066: wheel_2_1 1
+    100068: wheel_2_2 1
+    100070: wheel_3_1 1
+    100072: wheel_3_2 1
+    100074: wheel_4_1 1
+    100076: wheel_4_2 1
+    100078: wheel_5_1 1
+    100080: wheel_5_2 1
+    100082: wheel_6_1 1
+    100084: wheel_6_2 1
+    100086: wheel_7_1 1
+    100088: wheel_7_2 1
+    100090: wheel_8_1 1
+    100092: wheel_8_2 1
+    400000: //RootNode
+    400002: Object001
+    400004: Object002zzzz
+    400006: SSHLOD_BODY
+    400008: SSHLOD_IDLER
+    400010: SSHLOD_SPROCKET
+    400012: SSHLOD_TRACK_LEFT
+    400014: SSHLOD_TRACK_RIGHT
+    400016: SSHLOD_TURRET
+    400018: SSHLOD_WHEEL_01
+    400020: SSHLOD_WHEEL_02
+    400022: SSHLOD_WHEEL_03
+    400024: SSHLOD_WHEEL_04
+    400026: SSHLOD_WHEEL_05
+    400028: SSHLOD_WHEEL_06
+    400030: wheel_1_1
+    400032: wheel_1_2
+    400034: wheel_2_1
+    400036: wheel_2_2
+    400038: wheel_3_1
+    400040: wheel_3_2
+    400042: wheel_4_1
+    400044: wheel_4_2
+    400046: wheel_5_1
+    400048: wheel_5_2
+    400050: wheel_6_1
+    400052: wheel_6_2
+    400054: wheel_7_1
+    400056: wheel_7_2
+    400058: wheel_8_1
+    400060: wheel_8_2
+    400062: wheel_1_1 1
+    400064: wheel_1_2 1
+    400066: wheel_2_1 1
+    400068: wheel_2_2 1
+    400070: wheel_3_1 1
+    400072: wheel_3_2 1
+    400074: wheel_4_1 1
+    400076: wheel_4_2 1
+    400078: wheel_5_1 1
+    400080: wheel_5_2 1
+    400082: wheel_6_1 1
+    400084: wheel_6_2 1
+    400086: wheel_7_1 1
+    400088: wheel_7_2 1
+    400090: wheel_8_1 1
+    400092: wheel_8_2 1
+    2300000: Object001
+    2300002: Object002zzzz
+    2300004: SSHLOD_BODY
+    2300006: SSHLOD_IDLER
+    2300008: SSHLOD_SPROCKET
+    2300010: SSHLOD_TRACK_LEFT
+    2300012: SSHLOD_TRACK_RIGHT
+    2300014: SSHLOD_TURRET
+    2300016: SSHLOD_WHEEL_01
+    2300018: SSHLOD_WHEEL_02
+    2300020: SSHLOD_WHEEL_03
+    2300022: SSHLOD_WHEEL_04
+    2300024: SSHLOD_WHEEL_05
+    2300026: SSHLOD_WHEEL_06
+    2300028: wheel_1_1
+    2300030: wheel_1_2
+    2300032: wheel_2_1
+    2300034: wheel_2_2
+    2300036: wheel_3_1
+    2300038: wheel_3_2
+    2300040: wheel_4_1
+    2300042: wheel_4_2
+    2300044: wheel_5_1
+    2300046: wheel_5_2
+    2300048: wheel_6_1
+    2300050: wheel_6_2
+    2300052: wheel_7_1
+    2300054: wheel_7_2
+    2300056: wheel_8_1
+    2300058: wheel_8_2
+    2300060: wheel_1_1 1
+    2300062: wheel_1_2 1
+    2300064: wheel_2_1 1
+    2300066: wheel_2_2 1
+    2300068: wheel_3_1 1
+    2300070: wheel_3_2 1
+    2300072: wheel_4_1 1
+    2300074: wheel_4_2 1
+    2300076: wheel_5_1 1
+    2300078: wheel_5_2 1
+    2300080: wheel_6_1 1
+    2300082: wheel_6_2 1
+    2300084: wheel_7_1 1
+    2300086: wheel_7_2 1
+    2300088: wheel_8_1 1
+    2300090: wheel_8_2 1
+    3300000: Object001
+    3300002: Object002zzzz
+    3300004: SSHLOD_BODY
+    3300006: SSHLOD_IDLER
+    3300008: SSHLOD_SPROCKET
+    3300010: SSHLOD_TRACK_LEFT
+    3300012: SSHLOD_TRACK_RIGHT
+    3300014: SSHLOD_TURRET
+    3300016: SSHLOD_WHEEL_01
+    3300018: SSHLOD_WHEEL_02
+    3300020: SSHLOD_WHEEL_03
+    3300022: SSHLOD_WHEEL_04
+    3300024: SSHLOD_WHEEL_05
+    3300026: SSHLOD_WHEEL_06
+    3300028: wheel_1_1
+    3300030: wheel_1_2
+    3300032: wheel_2_1
+    3300034: wheel_2_2
+    3300036: wheel_3_1
+    3300038: wheel_3_2
+    3300040: wheel_4_1
+    3300042: wheel_4_2
+    3300044: wheel_5_1
+    3300046: wheel_5_2
+    3300048: wheel_6_1
+    3300050: wheel_6_2
+    3300052: wheel_7_1
+    3300054: wheel_7_2
+    3300056: wheel_8_1
+    3300058: wheel_8_2
+    3300060: wheel_1_1 1
+    3300062: wheel_1_2 1
+    3300064: wheel_2_1 1
+    3300066: wheel_2_2 1
+    3300068: wheel_3_1 1
+    3300070: wheel_3_2 1
+    3300072: wheel_4_1 1
+    3300074: wheel_4_2 1
+    3300076: wheel_5_1 1
+    3300078: wheel_5_2 1
+    3300080: wheel_6_1 1
+    3300082: wheel_6_2 1
+    3300084: wheel_7_1 1
+    3300086: wheel_7_2 1
+    3300088: wheel_8_1 1
+    3300090: wheel_8_2 1
+    4300000: SSHLOD_TURRET
+    4300002: SSHLOD_TRACK_RIGHT
+    4300004: SSHLOD_BODY
+    4300006: SSHLOD_WHEEL_01
+    4300008: SSHLOD_WHEEL_06
+    4300010: SSHLOD_TRACK_LEFT
+    4300012: SSHLOD_WHEEL_02
+    4300014: SSHLOD_WHEEL_03
+    4300016: SSHLOD_WHEEL_04
+    4300018: SSHLOD_WHEEL_05
+    4300020: SSHLOD_IDLER
+    4300022: SSHLOD_SPROCKET
+    4300024: Object001
+    4300026: Object002zzzz
+    4300028: wheel_2_1
+    4300030: wheel_7_1
+    4300032: wheel_3_1
+    4300034: wheel_4_1
+    4300036: wheel_5_1
+    4300038: wheel_6_1
+    4300040: wheel_1_1
+    4300042: wheel_8_1
+    4300044: wheel_2_2
+    4300046: wheel_3_2
+    4300048: wheel_4_2
+    4300050: wheel_5_2
+    4300052: wheel_6_2
+    4300054: wheel_7_2
+    4300056: wheel_8_2
+    4300058: wheel_1_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

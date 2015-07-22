@@ -1,0 +1,131 @@
+Skyshop 1.04.1 Change Log
+=======================
+Shaders
+ - Added Mobile/Occlusion/ shaders
+ - Fixed Self-Illumin shader fallbacks & shadows
+ - Removed blending from Transparent/Cutout (conforms to Unity & fixes shadows)
+ - Added "approxview" to all mobile shaders & fallbacks
+ - Fixed Mobile/Fast shader typos 
+Menus
+ - Changed "Refresh Skies" shortcut to ctrl+shift+R (ctrl+R is taken)
+
+
+
+
+Skyshop 1.04 Change Log
+=======================
+
+Moved Unity requirements to Unity 4.2+
+- Email support@marmoset.co to request a legacy build
+- Legacy build will not include terrain shaders
+
+
+SHADERS
+New shader feature #defines
+ - #define MARMO_OCCLUSION
+ - #define MARMO_VERTEX_COLOR
+ - #define MARMO_VERTEX_AO
+
+Ambient Occlusion Map
+ - Diffuse IBL occlusion in red channel
+ - Specular IBL occlusion in green channel
+ - Uses secondary UV set (texcoord1)
+ - Enabled in shaders with #define MARMO_OCCLUSION
+ - Shaders found in Marmoset/Occlusion/ category
+ 
+Vertex Colors
+ - Vertex color can modify diffuse color
+ - Enabled with #define MARMO_VERTEX_COLOR
+ - Shaders found in Marmoset/Vertex Color/ category
+ 
+Vertex Occlusion
+ - Vertex color can occlude image-based lighting
+ - Diffuse & specular IBL can be occluded separately using R & G channels
+ - Enabled with #define MARMO_VERTEX_OCCLUSION
+ - Shaders found in Marmoset/Vertex Occlusion/ category
+  
+Terrain Shaders
+ - Unity-style simple terrain shader + IBL
+ - Advanced Terrain shader
+   * Per-layer specular maps & controls
+   * Base normalmap (covers entire terrain)
+   * Base diffuse & AO map
+   * Diffuse & specular fresnel
+ - Optimized distant terrain shaders
+ - Usable on non-terrain meshes
+ - Shaders found in Marmoset/Terrain/ category
+ 
+Vegetation Shaders
+ - Waving grass shader
+ - Detail mesh shaders
+ - Soft Occlusion tree shaders
+ - Tree Creator shaders
+ - Detail & grass shaders are replaced automatically
+ - Shaders found in Marmoset/Nature/ category
+
+Vertex-Lit shaders
+ - Super-fast
+ - Shader-Model 2.0
+ - Vertex-Lit diffuse + IBL
+ - Vertex-Lit diffuse + diffuse & specular IBL
+ - Vertex-Lit diffuse + AO + diffuse & specular IBL
+ - Shaders found in Marmoset/Vertex Lit/ category
+
+Sky-dome Shader
+- For using the HDR sky cubemap with geometry 
+
+Combined Diff & Spec Texture
+ - Diffuse & specular maps sampled from the same texture
+ - Diffuse color in RGB, A used as both specular mask & gloss
+ - Enabled with #define MARMO_DIFFUSE_SPECULAR_COMBINED
+ - Used by Marmoset/Vertex Lit/ and Marmoset/Mobile/...Fast IBL shaders
+
+
+MOBILE
+ - Mipmap gloss support for iOS, hazaa!
+ - Mipmap gloss support for Android devices that support it (not many)
+ - Added Specular Fast & Bumped Specular Fast shaders with extreme mobile optimizations
+ - Improved fast fresnel approximation to match desktop shaders
+ - Improved Android support (with fallbacks in case of mipmap gloss failure)
+
+
+LIGHTMAPPING
+Full directional lightmap support
+ - Specular & gloss maps now affect dir lightmapped specular
+
+Added Lightmapped Diffuse & Lightmapped Specular Multiplier sliders
+ - Weights how much IBL is used on lightmapped surfaces
+
+
+MENU FEATURES
+Edit -> Skyshop -> Refresh Scene Skies
+ - Updates color-space on all skies in the scene
+ - Applies a sky if none are active (everything is black problem)
+
+Edit -> Skyshop ->  Upgrade Scene Skies
+ - Converts all skies in the scene to use the latest Skyshop features
+ - Part of namespaced scripting fix
+
+Edit -> Skyshop -> Convert Scene to Mobile/Standard
+ - Goes through all materials referenced in the current scene
+ - Replaces all uses of standard Marmoset shaders with Marmoset Mobile ones (or vice versa)
+
+Edit -> Skyshop -> Convert Project to Mobile/Standard
+ - Goes through all material assets in the entire project
+ - Replaces all uses of standard Marmoset shaders with Marmoset Mobile ones (or vice versa)
+
+Edit -> Terrain ->  Import/Export Splatmap
+ - Saves and loads PNG images as weight maps for terrain texture layers
+ - Useful for working with external terrain generation tools
+
+BUGS & MISC.
+ - Proper namespacing in scripts to prevent conflicts with other third-party code
+ - Fixed deferred, Specular IBL fresnel bug
+ - Fixed Mobile Specular IBL shadow bug
+ - Fixed transparency + fog bug
+ - Fixed Simple Glass diffuse bug
+ - Changed skybox texture coords to float3 for consoles
+ - MarmosetCore now knows about MarmosetInput globals
+ - Substance specular maps now work with Marmoset shaders (fixed in Substance).
+ - Fixed an Android "everything is black" bug (hlsl2glsl hates _ variable prefix).
+ - DIRECT_DIFFUSE & DIRECT_SPECULAR properly separated from IBL, can actually be toggled now.

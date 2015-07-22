@@ -1,0 +1,3 @@
+<ListOfTask>
+  <Task file="" description="Make a &quot;deselect&quot; invisible object surrounding the scene so that UI click does not deselect the gameobject" />
+</ListOfTask>

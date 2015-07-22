@@ -1,0 +1,87 @@
+Base path: F:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-5-15176
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=1 type=0 insize=11913 outsize=1078 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=11913 outsize=939 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_ON MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11913 outsize=6084 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=11913 outsize=5636 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_ON MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=11913 outsize=1748 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=11913 outsize=1653 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=11913 outsize=1855 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11913 outsize=4622 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11913 outsize=6612 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_ON MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=6591 outsize=575 kw=SPOT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6591 outsize=3415 kw=DIRECTIONAL_COOKIE SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6591 outsize=3687 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6591 outsize=4567 kw=POINT_COOKIE SHADOWS_CUBE MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=6591 outsize=557 kw=POINT SHADOWS_OFF MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6591 outsize=3650 kw=SPOT SHADOWS_OFF MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6591 outsize=3768 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6591 outsize=3687 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=6591 outsize=595 kw=POINT_COOKIE SHADOWS_CUBE MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6591 outsize=3768 kw=SPOT SHADOWS_DEPTH SHADOWS_SOFT MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=6591 outsize=595 kw=POINT SHADOWS_CUBE SHADOWS_SOFT MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6591 outsize=3500 kw=POINT_COOKIE SHADOWS_CUBE SHADOWS_SOFT MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=6591 outsize=1571 kw=DIRECTIONAL SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6591 outsize=6 kw=SPOT SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=6591 outsize=2005 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6591 outsize=6 kw=POINT SHADOWS_CUBE MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6591 outsize=5231 kw=POINT SHADOWS_CUBE MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6591 outsize=6312 kw=POINT_COOKIE SHADOWS_CUBE SHADOWS_SOFT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6591 outsize=5491 kw=SPOT SHADOWS_DEPTH MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=6591 outsize=6 kw=POINT_COOKIE SHADOWS_CUBE MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6591 outsize=5458 kw=POINT_COOKIE SHADOWS_CUBE MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=5231 outsize=1800 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=10523 outsize=1171 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF MARMO_LINEAR HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=10523 outsize=1171 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10523 outsize=4589 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=10523 outsize=6479 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF MARMO_GAMMA HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10523 outsize=6 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF MARMO_LINEAR HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=10523 outsize=1847 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=10523 outsize=1729 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF MARMO_GAMMA HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=10523 outsize=6 kw=LIGHTMAP_ON DIRLIGHTMAP_ON MARMO_GAMMA HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10523 outsize=6498 kw=LIGHTMAP_ON DIRLIGHTMAP_ON MARMO_GAMMA HDR_LIGHT_PREPASS_OFF ok=1
+Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
+
+
+Quitting shader compiler process

@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 15c42aed4f6ea354996009b763ce0b50
+timeCreated: 1435949183
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: door
+    100002: //RootNode
+    100004: glass
+    100006: hatch_commander
+    100008: hatch_gunner
+    100010: hull
+    100012: turret
+    100014: Wheel_1_1
+    100016: Wheel_1_1_pivot
+    100018: Wheel_1_2
+    100020: Wheel_1_2_pivot
+    100022: Wheel_2_1
+    100024: Wheel_2_1_pivot
+    100026: Wheel_2_2
+    100028: Wheel_2_2_pivot
+    400000: door
+    400002: //RootNode
+    400004: glass
+    400006: hatch_commander
+    400008: hatch_gunner
+    400010: hull
+    400012: turret
+    400014: Wheel_1_1
+    400016: Wheel_1_1_pivot
+    400018: Wheel_1_2
+    400020: Wheel_1_2_pivot
+    400022: Wheel_2_1
+    400024: Wheel_2_1_pivot
+    400026: Wheel_2_2
+    400028: Wheel_2_2_pivot
+    2300000: door
+    2300002: glass
+    2300004: hatch_commander
+    2300006: hatch_gunner
+    2300008: hull
+    2300010: turret
+    2300012: Wheel_1_1
+    2300014: Wheel_1_2
+    2300016: Wheel_2_1
+    2300018: Wheel_2_2
+    3300000: door
+    3300002: glass
+    3300004: hatch_commander
+    3300006: hatch_gunner
+    3300008: hull
+    3300010: turret
+    3300012: Wheel_1_1
+    3300014: Wheel_1_2
+    3300016: Wheel_2_1
+    3300018: Wheel_2_2
+    4300000: hull
+    4300002: turret
+    4300004: hatch_gunner
+    4300006: hatch_commander
+    4300008: glass
+    4300010: door
+    4300012: Wheel_1_1
+    4300014: Wheel_1_2
+    4300016: Wheel_2_2
+    4300018: Wheel_2_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

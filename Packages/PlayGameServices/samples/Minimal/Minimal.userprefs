@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\FlappyBirdsClone\Assets\Scripts\PlayerController.cs">
+    <Files>
+      <File FileName="..\..\..\..\FlappyBirdsClone\Assets\Scripts\MainMenu.cs" Line="75" Column="75" />
+      <File FileName="..\..\..\..\FlappyBirdsClone\Assets\Scripts\PlayerController.cs" Line="106" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
