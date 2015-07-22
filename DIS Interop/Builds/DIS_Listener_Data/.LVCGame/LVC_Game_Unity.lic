@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<qle>
+<license>
+<attribute name="application">Unity</attribute>
+<attribute name="expiry">06/08/2014</attribute>
+<attribute name="licensee">David Marchessault</attribute>
+<attribute name="plugins">DIS,HLA13,HLA1516,HLA1516e,LVCWebInterface,Mentor,OTH-GOLD</attribute>
+<attribute name="product">LVC Game</attribute>
+<attribute name="signature">ede765bb69498a6658b3889e19b71eaf1596bda7cf31da35fd67adad623471643badf186fbf248160b347dd4312e472d1eaf8635a1b69723ba9f07f8d3b5055d81578093ae246f302cb05fb6134e9ac663de901c5d70ee0a743d6b66e16306995032d4329ef0491d906a4d95e3f646b1094a3714cd29002ea11fbde9627768a3</attribute>
+<attribute name="version">3</attribute>
+</license>
+</qle>

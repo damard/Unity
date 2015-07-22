@@ -1,0 +1,16 @@
+<div class="section">
+    <h1>Outgoing Mappings</h1>
+    <form method="post" action="" onsubmit="return LVCGame.isOutgoingMappingsValid();">
+        <div>
+            <input class="submitButton alignright" type="submit" value="Apply" title="Save All Modified Mappings"/>
+        </div>
+
+        {body}
+
+        <div>
+            <input class="alignleft" type="button" value="Delete" onclick="LVCGame.deleteOutgoingMappings();" title="Delete Selected Mappings"/>
+            <input class="submitButton alignright" type="submit" value="Apply" title="Save All Modified Mappings"/>
+        </div>
+    </form>
+    
+</div>

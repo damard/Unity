@@ -1,0 +1,18 @@
+<tr class="{rowColor}">
+    <td class="text-center" rowspan="2">
+	<input class="rowselector" type="checkbox" name="selected_{lvcType_spaceless}" value="{lvcType}"/>
+	<!-- Hidden input for post on game type change -->
+	<input class="hiddenGameMapping" type="hidden" id="input_{lvcType_spaceless}" name="input_{lvcType_spaceless}" value="{gameType}" />
+    </td>
+    <td class="text-center" rowspan="2">
+        <pre class="lvcTypeCell">{lvcType}</pre>
+    </td>
+    <td id="name_{lvcType_spaceless}" class="nameCell onclickcursor" rowspan="1" onclick="LVCGame.doGameTypeSelection('{lvcType_spaceless}', '{lvcType}');">
+            {name}
+    </td>
+</tr>
+<tr class="{rowColor}">
+        <td id="details_{lvcType_spaceless}" class="gameTypeCell onclickcursor" rowspan="1" onclick="LVCGame.doGameTypeSelection('{lvcType_spaceless}', '{lvcType}');">
+		{gameType}
+        </td>
+</tr>

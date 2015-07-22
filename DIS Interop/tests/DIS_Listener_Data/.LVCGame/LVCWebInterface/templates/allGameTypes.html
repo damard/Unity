@@ -1,0 +1,20 @@
+<div class="section">
+    <h1>Game Types available for LVC  mapping</h1>
+    
+    <form method="post" action="">
+        <p>
+	   To refresh the list of Game Types available for LVC mapping, press the Refresh button. Note that this operation 
+	   make take several minutes, as the Game needs to interact with its entity database to repopulate this information
+	   within LVC Game.
+        </p>
+	
+	<div class="text-center">
+	  <input id="refreshAllGameTypesButton" class="submitButton" type="submit" value="Refresh Game Type List" title="Refresh game types" onclick="LVCGame.refreshGameTypeList(); return false;"/>
+	  <img id="loading-indicator" src="/media/images/loading-indicator.gif" alt="Loading..." style="display:none;"/>
+	</div>
+	
+	<hr/>
+            {body}
+    </form>
+    
+</div>

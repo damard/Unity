@@ -1,0 +1,137 @@
+<div class="section">
+    <h1>Metrics (last {historySize} ticks)</h1>    
+    <table id="metricsTable" class="alignleft">
+        <tbody>
+            <tr>
+                <th>Uptime:</th>
+                <td title="Days:Hours:Minutes:Seconds" id="uptime"></td>
+            </tr>
+            <tr>
+                <th>Entity&nbsp;Count:</th>
+                <td id="entityCount"></td>
+            </tr>
+            <tr>
+                <th class="subtitleCell">Land:</th>
+                <td id="landCount"></td>
+            </tr>
+            <tr>
+                <th class="subtitleCell">Air:</th>
+                <td id="airCount"></td>
+            </tr>
+            <tr>
+                <th class="subtitleCell">Surface:</th>
+                <td id="surfaceCount"></td>
+            </tr>
+            <tr>
+                <th class="subtitleCell">Subsurface:</th>
+                <td id="subsurfaceCount"></td>
+            </tr>
+            <tr>
+                <th class="subtitleCell">Space:</th>
+                <td id="spaceCount"></td>
+            </tr>
+            <tr>
+                <th class="subtitleCell">Other:</th>
+                <td id="otherCount"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="alignright">
+        <h2>Tick Time Allocation</h2>
+        <table id="tickTimeAllocationTable">
+            <tbody>
+                <tr>
+                    <td id="tickTimeAllocationGraphCell" rowspan="3">
+                        <span id="tickTimeAllocationGraph"></span>
+                    </td>
+                    <td id="tickPluginTimeAllocationColor" class="legendColor"></td>
+                    <td class="dataTitle">Plugin:</td>
+                    <td class="dataCell" id="tickPluginTimeAllocation"></td>
+                </tr>
+                <tr>
+                    <td id="tickDRTimeAllocationColor" class="legendColor"></td>
+                    <td class="dataTitle">Dead Reckoning:</td>
+                    <td class="dataCell" id="tickDRTimeAllocation"></td>
+                </tr>
+                <tr>
+                    <td id="tickEvtProcessingTimeAllocationColor" class="legendColor"></td>
+                    <td class="dataTitle">Event Processing:</td>
+                    <td class="dataCell" id="tickEvtProcessingTimeAllocation"></td>
+                </tr>
+                <tr>
+                    <td id="tickTimeAllocation" colspan="3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="tickTimeHistorySection" class="clear">
+        <h2>Total Tick time</h2>
+        <span id="tickDurationHistory" class="linegraph"></span>
+        <small id="tickDurationHistoryDataCell" class="alignright"></small>
+    </div>
+    
+    <!-- This section is commented out for now, not much use just yet for this 
+    <div id="pluginTickTimeHistorySection" class="clear">
+        <h2>Plugins Tick time</h2>
+        <span id="pluginTickDurationHistory" class="linegraph"></span>
+        <div id="pluginTickDurationHistoryDataCell" class="alignright">
+        <small id="pluginTickTimePeriod" class="alignright"></small>
+            <table>
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Plugin Name</th>
+                        <th>Minimum</th>
+                        <th>Maximum</th>
+                        <th>Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div -->
+
+    <div id="entityCreatedSection" class="clear">
+        <h2>Entity Create event count</h2>
+        <span id="entityCreatedHistoryGraph" class="linegraph"></span>
+        <small id="entityCreatedSectionHistoryDataCell" class="alignright"></small>
+    </div>
+    
+    <div id="entityUpdatedSection" class="clear">
+        <h2>Entity Update event count</h2>
+        <span id="entityUpdatedHistoryGraph" class="linegraph"></span>
+        <small id="entityUpdatedSectionHistoryDataCell" class="alignright"></small>
+    </div>
+    
+    <div id="entityDeletedSection" class="clear">
+        <h2>Entity Delete event count</h2>
+        <span id="entityDeletedHistoryGraph" class="linegraph"></span>
+        <small id="entityDeletedSectionHistoryDataCell" class="alignright"></small>
+    </div>
+    
+    <div id="weaponFireSection" class="clear">
+        <h2>Weapon Fire event count</h2>
+        <span id="weaponFireHistoryGraph" class="linegraph"></span>
+        <small id="weaponFireSectionHistoryDataCell" class="alignright"></small>
+    </div>
+    
+    <div id="detonationSection" class="clear">
+        <h2>Detonation event count</h2>
+        <span id="detonationHistoryGraph" class="linegraph"></span>
+        <small id="detonationSectionHistoryDataCell" class="alignright"></small>
+    </div>
+    
+    
+    
+    <script type="text/javascript" src="/media/js/metrics.js"></script> 
+</div>

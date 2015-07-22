@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">	
+<!--
+ ____________________________________________________________
+|                                                            |
+|    DESIGN : Jeremie Tisseau { http://web-kreation.com }    |
+|      DATE : 2007.08.31                                     |
+| COPYRIGHT : Free use if this notice is left in place       |
+|     EMAIL : webmaster@web-kreation.com                     |
+|   VERSION : 2.0                                            |
+|  DOWNLOAD : http://web-kreation.com/blog/?p=24             |
+|____________________________________________________________|
+-->
+
+<head>
+    <title>Calytrix LVC Game: Administration</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--The CSS-->
+    <link href="/media/css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- The Javascript -->
+    <script type="text/javascript" src="/media/js/jquery.js"></script>
+    <script type="text/javascript" src="/media/js/jquery.sparkline.js"></script>
+    <script type="text/javascript">
+        LVCGame = {};
+    </script>
+    <script type="text/javascript" src="/media/js/common.js"></script>
+    <link rel="stylesheet" href="/media/css/jquery.ui.theme/ui.all.css" type="text/css" media="screen"/>     
+    <link rel="stylesheet" href="/media/css/tablesorter.css" type="text/css" media="screen"/>     
+</head>
+
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div id="sidebar">
+
+                <div id="sb_top">
+                    <div class="sb_logo">
+                      <!-- The logo - Change it to be your own -->
+                      <a href="/" title="Home"><img src="/media/images/logo.png" alt="Home" /></a>
+                    </div>
+                    <!-- ... and now the slogan: -->
+                    <p>Calytrix LVC Game</p>
+                </div>
+
+                <div class="sb_content">
+
+                  <!--##########-->
+                  <!-- Start Menu -->
+                  <ul id="navlist">
+                    <li><a href="/diagnostics/" id="diagnostics_link"><img src="/media/images/diagnostics_32.png" alt="" />Diagnostics</a></li>
+                        <li class="subcategory"><a id="home_link" href="/">Metrics</a></li>
+                        <li class="subcategory"><a id="entity_states_link" href="/diagnostics/entitystore/">Entity States</a></li>
+                        <li class="subcategory"><a id="entity_id_link" href="/diagnostics/identifiers/" >Entity IDs</a></li>
+                        <!--li class="subcategory"><a href="/diagnostics/deadreckoning/">Dead Reckoning</a></li-->
+                        <li class="subcategory"><a id="logs_link" href="/diagnostics/logs/">Logs summary</a></li>
+                    <li><a href="/gamemappings/" id="mapping_link" ><img src="/media/images/mappings_32.png" alt=""/>Entity Mapping</a></li>
+                        <li class="subcategory"><a id="allGameTypes_link" href="/gamemappings/allGameTypes/">All Game Types</a></li>
+                        <li class="subcategory"><a id="incoming_link" href="/gamemappings/incoming/">Incoming</a></li>
+                        <li class="subcategory"><a id="outgoing_link"  href="/gamemappings/outgoing/">Outgoing</a></li>
+                        <li class="subcategory"><a id="overrides_link" href="/gamemappings/overrides/">Overrides</a></li>
+                    <li><a href="/runtimeplugins/" id="plugins_link"><img src="/media/images/plugins_32.png" alt=""/>Plugins</a></li>
+                        {runtimePluginConfig}
+                </ul> <!-- /Menu -->
+
+                  <!-- links -->
+                  <h2>External Links</h2>
+                  <ul>
+                    <li><a href="http://lvcgame.calytrix.com" title="Calytrix LVC Game - Product Website" target="_blank">LVC Game Product Page</a></li>
+                  </ul>
+                </div> <!-- /sb_content -->
+            </div> <!-- /sidebar -->
+
+            <!-- Top -->
+            <div id="header">
+                <input id="search" name="search" class="search" type="text" value="Search..." />
+                <a href="mailto:support@calytrix.com?subject=[Calytrix LVC Game] Support Request&amp;body=%0A%0A%0ABuild: {major_version}.{minor_version}.{date_version}.{svn_revision}" title="Email Calytrix Support">
+                    <img src="/media/images/contact.jpg" alt="Contact"/>
+                    Support
+                </a>
+            </div>
+
+
+            <!-- Start main content -->
+            <div id="content">
+                <div id="intro">
+                    <div class="intro_t">
+                      <h1>Calytrix LVC Game</h1>
+                      <p>Build:&nbsp;{major_version}.{minor_version}.{date_version}.{svn_revision}</p>
+                    </div>
+                </div> <!-- /intro -->
+
+
+                {content}
+
+            </div> <!-- /content -->
+
+            <div id="footer">
+                <div class="contentfoot">
+                    <!-- Back to top button -->
+                    <div class="backtotop"><a href="#container" title="Back to top">&nbsp;</a></div>
+
+                    <!-- To use this template free you must keep the link below-->
+                    Template design by <a href="http://web-kreation.com">Web-Kreation</a>
+                </div> <!-- /contentfoot -->
+            </div> <!-- /footer -->
+
+
+        <br class="endOfSection" />
+        </div> <!-- /wrapper -->
+
+    </div> <!-- /container -->         
+
+
+<script type="text/javascript">
+<!-- This script does the context highlighting in the nav bar -->
+$(document).ready(function() {
+	$("#{context_highlight}").css({'background-color':'#302325','color':'#FFFFFF'});
+ });
+</script> 
+
+        <!--[if IE 6]>
+            <div style="background:#ffd;border:1px solid #f88;margin: 10px;padding:5px;">
+                <strong>You are using Microsoft Internet Explorer 6.</strong> 
+                <br>
+                <br>Please note that due to technical limitations of this web browser, not all features of Calytrix
+                <br>LVCGame will be available, and performance will generally be slower than for modern web browsers.
+                <br>Microsoft offer a free upgrade to Internet Explorer 7.
+                <br><br>We strongly recommend to use one of the following web browsers with Calytrix LVCGame:
+                <ul>
+                    <li><a href="http://www.microsoft.com/windows/downloads/ie/getitnow.mspx">Microsoft Internet Explorer 7</a></li>
+                    <li><a href="http://www.mozilla.com/firefox/">Mozilla Firefox Version 2.0 or later</a></li>
+                    <li><a href="http://www.apple.com/safari/download/">Apple Safari Version 3.0 or later</a></li>
+                </ul>
+                <br>Mozilla also offers a portable version, which can be installed and used without administrative access:
+                <ul>
+                    <li><a href="http://portableapps.com/apps/internet/firefox_portable">Mozilla Firefox Portable Edition, Version 2.0 or later</a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                // correctly handle PNG transparency in Win IE 5.5 or higher.
+                LVCGame.correctPNG = function() 
+                {
+                    for(var i=0; i<document.images.length; i++)
+                    {
+                        var img = document.images[i];
+                        var imgName = img.src.toUpperCase();
+                        if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+                        {
+                            var imgID = img.id ? "id='" + img.id + "' " : "";
+                            var imgClass = img.className ? "class='" + img.className + "' " : "";
+                            var imgTitle = img.title ? "title='" + img.title + "' " : "title='" + img.alt + "' ";
+                            var imgStyle = img.style.cssText;
+                            imgStyle += "display:inline-block;";
+
+                            var imgAttribs = img.attributes;
+                            for (var j=0; j<imgAttribs.length; j++)
+                            {
+                                var imgAttrib = imgAttribs[j];
+                                if (imgAttrib.nodeName == "align")
+                                {
+                                    if (imgAttrib.nodeValue == "left")
+                                    { 
+                                        imgStyle = "float:left;" + imgStyle;
+                                    }
+                                    if (imgAttrib.nodeValue == "right") 
+                                    {
+                                        imgStyle = "float:right;" + imgStyle;
+                                    }
+                                    if (imgAttrib.nodeValue == "middle") 
+                                    {
+                                        imgStyle = "vertical-align:middle;" + imgStyle;
+                                    }
+                                    if (imgAttrib.nodeValue == "top")
+                                    {
+                                        imgStyle = "vertical-align:top;" + imgStyle;
+                                    }
+                                    if (imgAttrib.nodeValue == "bottom") 
+                                    {
+                                        imgStyle = "vertical-align:bottom;" + imgStyle;
+                                    }
+                                    break;
+                                }
+                            }
+
+                            var strNewHTML = "<span " + imgID + imgClass + imgTitle;
+                            strNewHTML += " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";";
+                            strNewHTML += "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader";
+                            strNewHTML += "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>";
+                            img.outerHTML = strNewHTML;
+
+                            i = i-1;
+                        }
+                    }
+                };
+                window.attachEvent("onload", LVCGame.correctPNG);
+            </script>
+        <![endif] -->
+
+
+</body>
+</html>

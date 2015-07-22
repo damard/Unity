@@ -1,0 +1,273 @@
+html, body
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #443833;
+    font: 90%/1 arial, helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    background-color: transparent;
+    border-bottom: 1px dotted #877065;
+    clear: both;
+    color: #443833;
+    font: 2em Georgia, "Times New Roman", Times, serif;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-bottom: 3px;
+    width: 97%;
+}
+h2
+{
+    background-color: transparent;
+    color: #443833;
+    font: 1.4em arial, helvetica, sans-serif;
+    font-size: 110%;
+    letter-spacing: -1px;
+    padding: 10px 0 0 0;
+}
+h3
+{
+    font: 1em arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+p, ul, ol
+{
+    margin: 0;
+    padding: 0 0 18px 0;
+}
+p.notfound
+{
+    padding: 15px 0 100px;
+}
+ul, ol
+{
+    list-style: none;
+    padding: 0 0 18px 40px;
+}
+blockquote
+{
+    background: url(../images/close-quote.jpg) no-repeat right bottom;
+    background-color: transparent;
+    color: #9A8074;
+    font: italic 1.2em Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    text-indent: -18px;
+    width: 400px;
+}
+blockquote:first-letter
+{
+    background: url(../images/open-quote.jpg) no-repeat left top;
+    font: italic 2em Georgia, "Times New Roman", Times, serif;
+    padding-left: 60px;
+}
+code
+{
+    background-color: #F5F4F3;
+    border: #E2DBD8 1px solid;
+    color: #666666;
+    display: block;
+    margin: 10px 0;
+    padding: 3px 5px;
+    width: 80%;
+}
+small
+{
+    font-size: 0.85em;
+}
+img
+{
+    border: 0;
+}
+sup
+{
+    bottom: 0.3em;
+    position: relative;
+    vertical-align: baseline;
+}
+sub
+{
+    bottom: -0.2em;
+    position: relative;
+    vertical-align: baseline;
+}
+acronym, abbr
+{
+    border-bottom: 1px dashed;
+    cursor: help;
+    letter-spacing: 1px;
+}
+hr
+{
+    border: 1px solid #E7E1DE;
+    margin: 15px 0;
+}
+a
+{
+    color: #0066FF;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #3399FF;
+    text-decoration: underline;
+}
+a img
+{
+    border: none;
+}
+table
+{
+    border: 0;
+    margin: 0 0 18px 0;
+    padding: 0;
+}
+table tr td
+{
+    padding: 2px;
+}
+.clear
+{
+    clear: both;
+}
+.alignleft
+{
+    float: left;
+}
+.alignright
+{
+    float: right;
+}
+
+
+.text-left
+{
+    text-align: left;
+}
+.text-right
+{
+    text-align: right;
+}
+.text-center
+{
+    text-align: center;
+}
+.text-justify
+{
+    text-align: justify;
+}
+.bold
+{
+    font-weight: bold;
+}
+.italic
+{
+    font-style: italic;
+}
+.underline
+{
+    border-bottom: 1px solid;
+}
+.highlight
+{
+    background: #ffc;
+}
+.img-left
+{
+    float: left;
+    margin: 4px 10px 4px 0;
+}
+.img-right
+{
+    float: right;
+    margin: 4px 0 4px 10px;
+}
+.nopadding
+{
+    padding: 0;
+}
+.noindent
+{
+    margin-left: 0;
+    padding-left: 0;
+}
+.nobullet
+{
+    list-style: none;
+    list-style-image: none;
+}
+.noborder
+{
+    border: none;
+}
+
+form
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+input, textarea, select
+{
+    background-color: #777777;
+    border: 1px solid #443833;
+    font: 1em arial, helvetica, sans-serif;
+    line-height: 1.25em;
+    padding: 0 0 0 2px;
+}
+input:focus, textarea:focus, select:focus
+{
+    background-color: #BDADA6;
+    border: 1px solid #55453E;
+}
+label
+{
+    cursor: pointer;
+}
+.errormsg
+{
+    background: #FF9D9D url(../images/stop.gif) no-repeat 10px center;
+    border-bottom: 2px solid #FF0000;
+    border-top: 2px solid #FF0000;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 3px 10px 3px 40px;
+    width: 90%;
+}
+input.button
+{
+    background: url(../images/button.jpg) repeat-x center;
+    border: 1px solid #302723;
+    color: white;
+    height: 23px;
+    padding: 0 7px;
+}
+
+/*Search input*/
+input.search {
+  background: url(../images/search.jpg) no-repeat;
+  border: none;
+  width: 175px;
+  height: 25px;
+  padding-left: 35px;
+  padding-right: 50px;
+  padding-top: 5px;
+  color: white;
+}

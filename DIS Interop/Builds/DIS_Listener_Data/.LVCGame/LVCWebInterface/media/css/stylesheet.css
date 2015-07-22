@@ -1,0 +1,869 @@
+/*
+ ____________________________________________________________
+|                                                            |
+|    DESIGN : Jeremie Tisseau { http://web-kreation.com }    |
+|      DATE : 2007.08.31                                     |
+| COPYRIGHT : Free use if this notice is left in place       |
+|     EMAIL : webmaster@web-kreation.com                     |
+|   VERSION : 1.3                                            |
+|  DOWNLOAD : http://web-kreation.com/blog/?p=24             |
+|____________________________________________________________|
+
+*/
+
+@import url("/media/css/base.css");
+
+body
+{
+    width: 100%;
+    line-height: 140%;
+    min-width: 970px;
+}
+
+#container
+{
+    background: url(../images/bg_top.jpg) repeat-x top left;
+    height: 100%;
+    width: 100%;
+}
+#wrapper
+{
+    background: url(../images/bg.jpg) repeat-y top left;
+    margin: 0 auto;
+    text-align: center;
+    width: 970px;
+}
+.endOfSection
+{
+    border: 0;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#sidebar
+{
+    color: white;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 240px;
+}
+#sidebar #sb_top
+{
+    background: url(../images/sb_top.jpg) no-repeat left top;
+    color: #A8948A;
+    cursor: pointer;
+    font-weight: bold;
+    height: 240px;
+    text-align: center;
+    width: 240px;
+}
+#sidebar .sb_logo
+{
+    padding-top: 17px;
+}
+#sidebar .sb_content
+{
+    padding-left: 12px;
+    text-align: left;
+    width: 218px;
+}
+#sidebar .sb_content h2
+{
+    background: url(../images/bg_h2.jpg) repeat-x;
+    color: #F5F1C2;
+    font: 1.5em Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 203px;
+}
+#sidebar .sb_content p
+{
+    padding: 5px 20px 15px 20px;
+}
+#sidebar .sb_content ul
+{
+    list-style-type: square;
+}
+#sidebar .sb_content a
+{
+    color: #FFFF99;
+}
+#sidebar .sb_content a:hover
+{
+    border-bottom: 1px dotted #FFFF99;
+    color: #FFFF99;
+}
+#sidebar .sb_content img
+{
+    border: 2px;
+    Margin: 0;
+    margin-left: 10px;
+    padding: 0px 5px 0px 0px;
+    background-color: transparent;
+	vertical-align: middle;
+}
+#sidebar .sb_content img.noborder
+{
+    background-color: transparent;
+    border: none;
+    Margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+#sidebar #navlist
+{
+	vertical-align: middle;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 218px;
+}
+#sidebar #navlist a
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #3E322D;
+    border-top: 1px solid #705A52;
+    color: white;
+    display: block;
+    font-size: 120%;
+	font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+}
+#sidebar #navlist a:hover
+{
+    background-color: #443833;
+    color: #877065;
+	font-weight: normal;
+}
+#sidebar #navlist a.noborder
+{
+    border-bottom: none;
+	font-weight: normal;
+}
+
+#sidebar #navlist .subcategory a
+{
+    padding-left: 48px;
+    font-size: 100%;
+	font-weight: normal;
+}
+
+#sidebar .copyright
+{
+    background-color: #302723;
+    border: 1px solid black;
+    color: #877065;
+    display: block;
+    font-size: 90%;
+    margin: 60px auto 40px auto;
+    padding: 5px 7px;
+    text-align: center;
+    width: 170px;
+}
+#sidebar .copyright p
+{
+    padding: 0;
+}
+#sidebar .copyright a
+{
+    color: #FFFF99;
+}
+#sidebar .copyright a:hover
+{
+    border-bottom: 1px dotted #FFFF99;
+    color: #FFFF99;
+}
+#header
+{
+    background: url(../images/bg_top.jpg) repeat-x top left;
+    clear: right;
+    color: white;
+    display: block;
+    float: left;
+    height: 40px;
+    padding-top: 15px;
+    text-align: right;
+    width: 730px;
+}
+#header a
+{
+    color: white;
+}
+#header a:hover
+{
+    border-bottom: 1px dotted white;
+}
+#content
+{
+    border-top: #877065 9px solid;
+    display: block;
+    float: left;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: left;
+    width: 720px;
+}
+#content ul li
+{
+    list-style: url(../images/bullet.jpg);
+}
+#content img
+{
+    background-color: #E7E1DE;
+    border: 1px solid #D0C5BF;
+    Margin: 15px 0;
+    padding: 4px;
+}
+#content img.alignleft
+{
+    clear: none;
+    display: block;
+    float: left;
+    margin: 5px 10px 0 0;
+}
+#content img.alignright
+{
+    float: right;
+    margin: 5px 0 0 10px;
+}
+#content img.noborder
+{
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    padding: 0;
+}
+#content #intro
+{
+    background: #55453E url(../images/intro.jpg) no-repeat center;
+    color: white;
+    height: 85px;
+    width: 100%;
+}
+#content .intro_t
+{
+    color: white;
+    margin-left: 35px;
+    width: 90%;
+}
+#content #intro h1
+{
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+#content #intro h1 span
+{
+    color: black;
+    font-size: 24px;
+}
+#content #intro h1 .editsection
+{
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+}
+#content #intro h2
+{
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+#content #intro p
+{
+    padding: 0;
+}
+#content #intro a, #introduction a
+{
+    color: #FFFF99;
+}
+#content #intro a:hover, #introduction a:hover
+{
+    border-bottom: 1px dotted #FFFF99;
+    color: #FFFF99;
+}
+#content #introduction
+{
+    background-color: #55453E;
+    color: white;
+    height: 176px;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+#content #introduction h1
+{
+    border-bottom: 4px solid #877065;
+    color: #877064;
+    font-size: 250%;
+    margin: 0;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+#content #intro a, #introduction a
+{
+    color: #FFFF99;
+}
+#content #intro a:hover, #introduction a:hover
+{
+    border-bottom: 1px dotted #FFFF99;
+    color: #FFFF99;
+}
+#content #main
+{
+    display: block;
+    margin: 15px 20px;
+}
+
+#content .section
+{
+    display: block;
+    float: left;
+    margin: 15px 0 40px;
+    padding: 0 15px;
+    width: 680px;
+}
+
+#content .section .links
+{
+    background-color: #FAFAFA;
+    border-bottom: #E2DBD8 1px dotted;
+    border-top: #E2DBD8 1px dotted;
+    color: #444444;
+    display: block;
+    font-size: 85%;
+    height: 25px;
+    line-height: 25px;
+    padding: 3px 10px;
+    width: 95%;
+}
+#content .section .links a
+{
+    color: #666666;
+    text-decoration: none;
+}
+#content .section .links a:hover
+{
+    border-bottom: dotted 1px #666666;
+    color: #666666;
+}
+
+#footer
+{
+    background: #443833 url(../images/sb_bottom.jpg) no-repeat left top;
+    clear: both;
+    color: #6C574F;
+    display: block;
+    float: left;
+    font-size: 80%;
+    height: 60px;
+    width: 100%;
+}
+#footer .contentfoot
+{
+    border-top: #877065 10px solid;
+    display: block;
+    float: right;
+    height: 30px;
+    padding: 5px 0;
+    width: 730px;
+}
+#footer a
+{
+    color: #866B62;
+}
+#footer a:hover
+{
+    border-bottom: 1px dotted #866B62;
+}
+#footer .backtotop
+{
+    background: url(../images/backtotop.jpg) no-repeat left top;
+    clear: right;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin-right: 10px;
+    width: 30px;
+}
+
+/*------- Above is the original template ----------*/
+/*------- Below is custom CSS ----------------------*/
+
+/** Generic Styling */
+span.error
+{
+    color:red;
+}
+
+table
+{
+    border-collapse:collapse;
+    border-left:1px solid #2a221f;
+    border-right:1px solid #2a221f;
+    margin-top:10px;
+    
+    width:100%;
+}
+
+thead th
+{
+    border-top:1px solid #2a221f;
+    border-bottom:1px solid #2a221f;
+    border-left:1px solid #2a221f;
+    color: #FFF;
+    font-weight:normal;
+    padding:2px 5px;
+    background-color: #55453E;
+}
+
+table tr td
+{
+    border:1px solid #2a221f;
+    border-collapse:collapse;
+    font-size:11px;
+    padding: 1px 5px 1px 10px;
+    vertical-align:middle;
+}
+
+table tbody tr.darkRow
+{
+    background-color: rgb(230,230,230);
+}
+
+#content .imagetight
+{
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+td.rowspantop
+{
+    border-bottom: 1px dotted #2a221f;
+}
+
+td.rowspanbottom
+{
+    border-top: 1px dotted #2a221f;
+}
+
+.onclickcursor
+{
+    cursor: pointer;
+}
+
+.onclickcursor:hover
+{
+    text-decoration: underline;
+}
+
+input[type=submit], input[type=button]
+{
+	color: white;
+    padding: 0px 4px 0px 4px;
+    text-align: center;
+    border-width: 1px;
+    cursor: pointer;
+    margin: 0px 8px 0px 0px;
+}
+
+input[type=text]
+{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+select
+{
+    background-color: white;
+    border: 1px solid #BBBBBB;
+}
+
+input[type=text].inputError
+{
+    background-color: #FA8072;
+    border:1px solid #443833;
+}
+
+pre
+{
+    vertical-align:middle;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid transparent;
+}
+
+/** Home (Metrics) **/
+#metricsTable
+{
+    width: auto;
+    border: none;
+    background-color: #FFF;
+}
+
+#metricsTable th, #metricsTable td
+{
+    border: none;
+}
+
+#metricsTable th
+{
+    text-align: left;
+    padding-right: 8px;
+}
+
+#metricsTable th.subtitleCell
+{
+    padding-left: 24px;
+    font-size: 0.8em;
+}
+
+#metricsTable td
+{
+    text-align: right;
+}
+
+.linegraph
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.linegraph canvas
+{
+    border-bottom: 1px solid #888;
+    border-left: 1px solid #888;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/** Tick Time Metrics (Pie Chart) **/
+#tickTimeAllocationTable
+{
+    width: auto;
+    border: none;
+}
+
+#tickTimeAllocationTable td
+{
+    border: none;
+}
+
+#tickTimeAllocationGraphCell
+{
+    padding-right: 32px;
+}
+
+#tickTimeAllocationTable td.dataCell
+{
+    padding: 0px 8px 0px 0px;
+    border-top: 1px dotted #BBBBBB;
+    border-bottom: 1px dotted #BBBBBB;
+    border-right: 1px dotted #BBBBBB;
+}
+
+#tickTimeAllocationTable td.dataTitle
+{
+    text-align:right;
+    padding: 0px 4px 0px 16px;
+    border-top: 1px dotted #BBBBBB;
+    border-bottom: 1px dotted #BBBBBB;
+    font-weight: bold;
+}
+
+#tickTimeAllocationTable td.legendColor
+{
+    width: 8px;
+    height: 40px;
+    /*border: 1px solid #BBBBBB;*/
+    border: 2px solid white;
+    
+}
+
+/** Diagnostics **/
+#diagnosticsTable
+{
+    background-color: #FFF;
+}
+
+#diagnosticsTable th
+{
+    cursor: pointer;
+}
+
+#diagnosticsTable p
+{
+    padding: 0px;
+}
+
+div.kkill
+{
+    color: black;
+}
+
+div.mfkill, div.mkill, div.fkill, div.damaged
+{
+    color: orange;
+}
+
+div.nodamage
+{
+    color: blue;
+}
+
+#content div.entityStoreStatus
+{
+    font-weight:bold;
+}
+
+#content div.entityStoreStatus img
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+#content div.entityStoreStatus p
+{
+    padding: 0px;
+}
+
+/** Entity Identifiers **/
+#entityIdentifiersTableWrapper
+{
+    overflow: auto;
+}
+
+#entityIdentifiersTable
+{
+    background-color: #FFFFFF;
+    white-space: nowrap;
+}
+
+#entityIdentifiersTable img
+{
+    padding: 0px 12px 0px 0px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+/** Help Screens **/
+#content img.helpstarter
+{
+    background-color: transparent;
+    border: none;
+}
+
+/** Game Mappings **/
+#content a.pagelink
+{
+    padding: 0px 4px 0px 4px;
+}
+
+.pageLinkContainer
+{
+    clear: both;
+}
+
+#content span.selectedpage
+{
+    padding: 0px 4px 0px 4px;
+    font-weight: normal;
+}
+
+#mappingTable
+{
+    background-color: #FFF;
+}
+
+#mappingTable th
+{
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#mappingTable .nameCell
+{
+	font-size: 100%;
+	font-weight: bold;
+    text-align: left;
+	border-bottom: none;
+}
+
+#mappingTable .gameTypeCell
+{
+	font-style: italic;
+    text-align: left;
+	border-top: none;
+ }
+
+.domainCell
+{
+	
+}
+
+.friendlyForceCell
+{
+	color: #0000FF;
+}
+
+.opposingForceCell
+{
+	color: #FF0000;
+}
+
+.neutralForceCell
+{
+	color: #00FF00;
+}
+
+.otherForceCell
+{
+}
+
+#mappingTable .lvcTypeCell
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+#mappingTable .lvcTypeCell input
+{
+    font: 1em monospaced;
+    text-align: center;
+	font-weight: bold;
+}
+
+#mappingTable .unitSideCell
+{
+    text-align: center;
+}
+
+#mappingTable .unitSideCell input
+{
+    text-align: center;
+}
+
+#mappingTable .offsetCell
+{
+    text-align: center;
+    white-space: nowrap;
+}
+
+#mappingTable .offsetCell input
+{
+    width: 2em;
+    text-align: right;
+}
+
+#mappingTable input:focus, #mappingTable select:focus
+{
+    border:1px solid #443833;
+    background-color: #F5F1C2;
+}
+
+#mappingTable input:hover
+{
+    border-color: #443833;
+}
+
+/** Readonly Plugin Config **/
+#readonlyConfig th
+{
+      border: 1px solid;
+	  border-color: gray;
+      text-align: left;
+}
+
+#readonlyConfig th, 
+#readonlyConfig td
+{
+    border: 1px solid;
+	border-color: gray;
+}
+
+/** Row selection **/
+input.rowselector, input.selectall
+{
+    border: 1px solid transparent;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFF;
+}
+
+.isEntityIDOwner
+{
+    font-weight: bold;	
+}
+
+.notEntityIDOwner
+{
+    font-style: italic;	
+}
+
+.logTable, .logTable tr td
+{
+	border: white;
+	padding: 0;
+}
+
+.errorLogMessage
+{
+		background-color: #FF0000;
+		font-weight: bold;
+}
+
+.warningLogMessage
+{
+		background-color: #FFCC00;
+		font-weight: bold;
+}
+
+.hiddenGameMapping
+{
+	border: none;
+	padding: 0px;
+}
+
+.gameSelectionTable
+{
+    border-collapse:collapse;
+    border:none;
+    
+    width: 650px;
+	height:100%;
+}
+
+.nameCell
+{
+	font-weight: bold;
+    text-align: left;
+	border-bottom: none;
+}
+
+.gameTypeCell
+{
+	font-style: italic;
+    text-align: left;
+	border-top: none;
+ }

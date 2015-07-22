@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<qle>
+<license>
+<attribute name="application">Unity</attribute>
+<attribute name="expiry">15/02/2014</attribute>
+<attribute name="licensee">David Marchessault Technical Lead Simthetiq david.marchessault@simthetiq.com</attribute>
+<attribute name="plugins">DIS,HLA13,HLA1516,HLA1516e,LVCWebInterface,Mentor,OTH-GOLD</attribute>
+<attribute name="product">LVC Game</attribute>
+<attribute name="signature">704a3428a8764971a45e15ab0014839bfbec8c4387751e062ad40966ab78d68dd912c42f6b53285b1fce2cfa7f2aab079ccdd5398c9678c4c93192c64c6f3d0de5eba7bc80a59b10d9fc09b5d2807706c378ffdadc800d857709c4dc92cadfbe4020229bd30892932b9debcd056564fd26a396c2d8d365b7dffad6be662f7488</attribute>
+<attribute name="version">3</attribute>
+</license>
+</qle>

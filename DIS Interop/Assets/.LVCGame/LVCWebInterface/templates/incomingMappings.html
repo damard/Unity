@@ -1,0 +1,54 @@
+<div class="section">
+    <h1>Incoming Mappings</h1>    
+    <form method="post" action="" onsubmit="return LVCGame.isOutgoingMappingsValid();">
+       <div>
+            <input class="alignleft" type="button" value="Delete" onclick="LVCGame.deleteIncomingMappings();" title="Delete Selected Mappings"/>
+            <div class="alignright">
+                <input type="button" value="Add New" onclick="LVCGame.addIncomingMappings();" title="Add Additional Mappings"/>
+                <input class="submitButton" type="submit" value="Apply" title="Save All Modified Mappings"/>
+            </div>
+        </div>
+
+	
+	<!-- Dialog used for choosing our mapping (game type) -->
+	<script type="text/javascript" src="/media/js//jquery.tablesorter.min.js"></script> 
+	<script type="text/javascript" src="/media/js/jquery.ui.all.js"></script>
+	<div style="display: none;"  id="GameTypeSelection">
+	<table class="gameSelectionTable tablesorter" id="gameSelectionTableID">
+	    <thead>
+		  <tr>
+		    <th rowspan="1">Entity&nbsp;Name&nbsp;</th>
+		    <th rowspan="1">Entity&nbsp;Type</th>
+		</tr>
+	    </thead>
+	    <tbody>
+		{gameTypeItems}
+	    </tbody>
+	</table>
+	</div>
+	
+	<script type="text/javascript" >
+	$(document).ready( function() {
+	// Sort our game type table please
+	$("#gameSelectionTableID").tablesorter( {sortList: [[0,0], [0,0]]} ); 
+	
+	// Create dialog ready for use
+	$("#GameTypeSelection").dialog(
+		{ 
+		autoOpen: false,
+		width: 780,
+		height: 550
+		});});
+		
+	</script>
+
+	{body}
+
+        <div>
+            <input class="alignleft" type="button" value="Delete" onclick="LVCGame.deleteIncomingMappings();" title="Deletes the Selected Mappings"/>
+            <input class="submitButton alignright" type="submit" value="Apply" title="Save All Modified Mappings"/>
+            <input class="alignright" type="button" value="Add New" onclick="LVCGame.addIncomingMappings();" title="Add Additional Mappings"/>
+        </div>
+    </form>
+    
+</div>

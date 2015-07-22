@@ -1,0 +1,67 @@
+<script type="text/javascript" src="/media/js/mappingUtil.js"></script>
+
+<form method="post" action="/gamemappings/incoming/add/">
+    <table class="addIncomingMapping">
+        <thead>
+            <tr>
+                <th>Enumeration</th>
+                <th>Game&nbsp;Type</th>
+				<th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {addRows}
+        </tbody>
+    </table>
+    <div>
+        <input class="alignright submitButton" type="submit" value="Submit"></input>
+    </div>
+</form>
+<script type="text/javascript">
+    LVCGame.addIncomingLvcTypeChanged = function(evt)
+    {
+        var jElem = $(evt.target);
+        var ret = LVCGame.validateLvcTypeChanged(evt);
+        
+        if(ret.isError)
+        {
+            jElem.addClass("inputError").attr("title", ret.message);
+            $(".submitButton").attr("disabled","disabled");
+        }
+        else
+        {
+            jElem.removeClass("inputError").removeAttr("title");
+            $(".submitButton").removeAttr("disabled");
+        }
+    }
+	
+	LVCGame.addIncomingGameTypeChanged = function(evt)
+	{
+		var jElem = $(evt.target);
+        var retState = LVCGame.validateGameTypeChanged(evt);
+        
+        if(retState)
+        {
+			jElem.removeClass("inputError").removeAttr("title");
+            $(".submitButton").removeAttr("disabled");
+        }
+        else
+        {
+			jElem.addClass("inputError").attr("title");
+            $(".submitButton").attr("disabled","disabled");		
+        }
+	}
+		
+    $(document).ready(function() 
+	{
+		// Populate the Game Mapping Select HTML object user loses/ makes focus on an object		
+		$(".gameTypeInput").bind("focus", LVCGame.populateGameMappingFilterList);
+		$(".gameTypeInput").bind("change", LVCGame.addIncomingGameTypeChanged);
+		
+		// Add validation to the lvcType input field (The enumeration)
+        var jLvcTypeInputs = $(".lvcTypeInput");
+        jLvcTypeInputs.change(LVCGame.addIncomingLvcTypeChanged);
+		
+    });
+	
+</script>

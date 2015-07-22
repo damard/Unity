@@ -1,0 +1,25 @@
+<script type="text/javascript" src="/media/js/mappingUtil.js"></script>
+<script type="text/javascript" src="/media/js/outgoingMapping.js"></script>
+
+<div class="text-center pageLinkContainer">
+    <small><strong>{gameTypeCount}</strong></small>
+</div>
+<div class="text-center">
+    <a class="pagelink" href="javascript: LVCGame.reloadWithParam({'offset':'0'});">
+        <img class="imagetight" src="/media/images/arrow_start.gif" alt="Start" title="Start"/>
+    </a>
+    {paginglinks}
+    <a class="pagelink" href="javascript: LVCGame.reloadWithParam({'offset':'max'});">
+        <img class="imagetight" src="/media/images/arrow_end.gif" alt="end" title="End"/>
+    </a>
+</div>
+<table id="mappingTable">
+    <thead>
+        <tr>
+            <th rowspan="1" onclick="document.location='/gamemappings/allGameTypes/?col=1&amp;sort={sort}'">Name&nbsp;{col_1}</th>
+            <th rowspan="1" onclick="document.location='/gamemappings/allGameTypes/?col=2&amp;sort={sort}'">Game&nbsp;Type&nbsp;{col_2}</th>
+	  <th rowspan="1">Domain</th>
+	  <th rowspan="1">Force</th>
+        </tr>
+    </thead>
+    <tbody>

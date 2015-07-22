@@ -1,0 +1,58 @@
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::LVCGame) Loaded LVCCore 3.10.0.157 - Win32 plugin
+2014-11-27 12:29:40 INFO (LVCGAME::SDK::LVCGameSDK::LVCGameSDK) Loaded LVCGameSDK 3.10.0.157 - Win32 plugin
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::setConfigPath) Configuation path set to 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\UnityClient.config'
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::initLicense) Using license file 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\LVC_Game_Unity.lic'
+2014-11-27 12:29:40 INFO (LVCGAME::LicenseProperties::loadAndValidate) Host Platform identifier is 'cc326e489474fecc59df7084fb82eb23cdf379f8'
+2014-11-27 12:29:40 INFO (LVCGAME::LicenseProperties::loadAndValidate) Valid license loaded.
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::initialiseEntityFilterManager) filters config file "F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\UnityFilters.config" does not contain any filter specifications
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::initialiseEntityFilterManager) entity filter has 0 region(s) and 0 type specification(s) defined
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::init) Async event queue timeout set to 50 milliseconds and using release algorithm 0
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::init) Setting EntityMatching to 1
+2014-11-27 12:29:40 INFO (LVCGAME::EntityTypeMapping::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\lvc_to_Unity.config
+2014-11-27 12:29:40 INFO (LVCGAME::EntityTypeMapping::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\UnityUnitSideOverride.config
+2014-11-27 12:29:40 INFO (LVCGAME::EntityTypeMapping::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\UnityEntityOffset.config
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\DIS\DIS.config'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\DIS\DIS.config'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\DIS\DIS.config'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\LVCWebInterface\LVCWebInterface.config'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\LVCWebInterface\LVCWebInterface.config'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::Properties::readConfigFile) Loading 'F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\LVCWebInterface\LVCWebInterface.config'
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::init) Initialised.
+2014-11-27 12:29:40 ERROR (LVCGAME::LVCGame::start) DIS.dll,,F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\DIS\DIS.config
+2014-11-27 12:29:40 INFO (DIS::DIS::DIS) Loaded DIS 3.10.0.157 - Win32 plugin
+2014-11-27 12:29:40 INFO (DIS::PDUManager::init) Initialising DIS networking on localhost
+2014-11-27 12:29:40 INFO (DIS::PDUManager::init) DIS Send Port: 3000
+2014-11-27 12:29:40 INFO (DIS::PDUManager::init) DIS Receive Port: 3000
+2014-11-27 12:29:40 INFO (DIS::PDUManager::init) Default inet address will be used, none specified under 'dis.inet'
+2014-11-27 12:29:40 INFO (LVCGAME::UTILS::ConnectionlessSocket::resolveAddress) Using inet address 192.168.0.146 to bind socket
+2014-11-27 12:29:40 INFO (DIS::PDUManager::init) Enabling broadcast
+2014-11-27 12:29:40 INFO (DIS::DIS::start) Dead Reckoning algorithm of type '2' used for DIS outgoing entities.
+2014-11-27 12:29:40 INFO (DIS::DIS::start) DIS plugin Initialised.
+2014-11-27 12:29:40 ERROR (LVCGAME::LVCGame::start) LVCWebInterface.dll,,F:\Production\Tool\Unity\DIS Interop\tests\DIS_Listener_Data\.LVCGame\LVCWebInterface\LVCWebInterface.config
+2014-11-27 12:29:40 INFO (DIS::PDUManager::enterReceiveLoop) DIS Receiving thread is up
+2014-11-27 12:29:40 INFO (LVCWebInterface::LVCWebInterfacePlugin::LVCWebInterfacePlugin) Loaded LVCWebInterface 3.10.0.157 - Win32 plugin
+2014-11-27 12:29:40 INFO (LVCWebInterface::HttpRequestHandler::initListener) Starting LVCWebInterface on http://*:8999/
+2014-11-27 12:29:40 INFO (LVCWebInterface::LVCWebInterfacePlugin::start) LVCWebInterface plugin initialised.
+2014-11-27 12:29:40 INFO (LVCGAME::LVCGame::start) Started.
+2014-11-27 12:29:58 INFO (LVCWebInterface::HttpRequestHandler::run) LVCWebInterface listener closed.
+2014-11-27 12:29:58 INFO (DIS::PDUManager::enterReceiveLoop) DIS Receiving thread has ended
+2014-11-27 12:29:58 INFO (LVCGAME::ENTITY::SimulationStore::clear) Clearing simulation store
+2014-11-27 12:29:58 INFO (LVCWebInterface::LVCWebInterfacePlugin::shutdown) LVCWebInterface plugin has shutdown.
+2014-11-27 12:29:58 INFO (DIS::DIS::shutdown) DIS plugin has shutdown.
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::shutdown) Shutdown.
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) Statistics (filtered / total):
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of entity create events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of entity update events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of entity delete events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of designator create events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of designator update events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of designator delete events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of weapon fire events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of munition detonation events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of data events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of transmitter create events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of transmitter update events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of transmitter delete events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) 	number of signal events: 0/0
+2014-11-27 12:29:58 INFO (LVCGAME::LVCGame::~LVCGame) LVCGame instance unloaded.

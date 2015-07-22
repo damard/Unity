@@ -1,0 +1,27 @@
+<script type="text/javascript" src="/media/js/mappingUtil.js"></script>
+<script type="text/javascript" src="/media/js/outgoingMapping.js"></script>
+
+<div class="text-center pageLinkContainer">
+    <small><strong>{mappingCount}</strong></small>
+</div>
+<div class="text-center">
+    <a class="pagelink" href="javascript: LVCGame.reloadWithParam({'offset':'0'});">
+        <img class="imagetight" src="/media/images/arrow_start.gif" alt="Start" title="Start"/>
+    </a>
+    {paginglinks}
+    <a class="pagelink" href="javascript: LVCGame.reloadWithParam({'offset':'max'});">
+        <img class="imagetight" src="/media/images/arrow_end.gif" alt="end" title="End"/>
+    </a>
+</div>
+<table id="mappingTable">
+    <thead>
+        <tr>
+            <th rowspan="1" onclick="document.location='/gamemappings/overrides/?col=1&amp;sort={sort}'">Name&nbsp;{col_1}</th>
+            <th rowspan="2" onclick="document.location='/gamemappings/overrides/?col=4&amp;sort={sort}'">Side&nbsp;{col_4}</th>
+            <th rowspan="2" onclick="document.location='/gamemappings/overrides/?col=5&amp;sort={sort}'" >Offset&nbsp;(x,&nbsp;y,&nbsp;z)&nbsp;{col_5}</th>
+        </tr>
+        <tr>
+            <th rowspan="1" onclick="document.location='/gamemappings/overrides/?col=2&amp;sort={sort}'">Game&nbsp;Type&nbsp;{col_2}</th>
+        </tr>
+    </thead>
+    <tbody>

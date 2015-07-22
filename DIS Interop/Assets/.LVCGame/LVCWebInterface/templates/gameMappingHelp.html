@@ -1,0 +1,44 @@
+<div class="section">
+    <h1>Game Mappings</h1>
+    <p>
+        <img class="alignleft helpstarter" src="/media/images/mappings.png" alt=""/>
+	<br/>
+	Typically, each simulation system has its own Entity Type representation;  Game Mappings determine 
+	how different simulations or game engines translate Entity Types.  This section is used to create 
+	or modify mappings of Entity Types for incoming and outgoing Game Types.
+	</p>
+	<p>
+	LVC Game uses an Enumeration scheme to designate Entity Types.  LVC Enumerations are made of 
+	seven space-separated integers that correspond to a DIS style entity type enumeration:
+	</p>
+	<pre>
+	&lt;v1&gt; = Kind
+	&lt;v2&gt; = Domain
+	&lt;v3&gt; = Country
+	&lt;v4&gt; = Category
+	&lt;v5&gt; = Sub Category
+	&lt;v6&gt; = Specific
+	&lt;v7&gt; = Extra
+	</pre>
+<p>
+	To view all Game Entity Types that may be used for LVC mapping, click on <strong>All Game Types</strong>.
+	This view can also be used to refresh the internal LVC Game database with the latest Game Entities by 
+	dynamically querying the game for all of its available entities.
+</p>
+    <p>
+         The <strong>Incoming</strong> and <strong>Outgoing</strong> sections are used to modify or create 
+	 new mappings. For example, all simulation data with the LVC Type of "1 1 0 1 1 2 0" can be mapped to an "m1abrams" on 
+	 the incoming side, conversely you can chose to represent an "m1abrams" as "1 1 0 1 1 2 0" or another LVC Type on 
+	 the outgoing side. 
+    </p>
+    <p>
+        The <strong>Overrides</strong> section can be used to change the Unit Force on specific Game Types, or add 
+	a position offset to their Centre Of Mass.
+    </p>
+    <p>
+       <strong>Note:</strong> Entity Mappings can be dynamically added, removed and edited at runtime. For example
+       if you notice that a mapping is missing by inspecting the Logs Summary or the Entity States table, you can add any missing
+       mapping(s) dynamically and the corresponding entities or ammunition will become available in the simulation. 
+       However changes are only applied to newly created entities when editing existing mappings.
+    </p>
+</div>

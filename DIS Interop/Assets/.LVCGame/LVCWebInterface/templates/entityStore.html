@@ -1,0 +1,39 @@
+<script type="text/javascript" src="/media/js/mappingUtil.js"></script>
+<script type="text/javascript" src="/media/js/incomingMapping.js"></script>
+<div class="section">
+    <h1>Entity States</h1>
+    <div class="text-center">
+        <small><strong>{entityCount}</strong></small>
+    </div>
+    <div class="pageLinkContainer text-center">
+        <a class="pagelink" href="javascript: LVCGame.reloadWithParam({'offset':'0'});">
+            <img class="imagetight" src="/media/images/arrow_start.gif" alt="Start" title="Start"/>
+        </a>
+        {paginglinks}
+        <a class="pagelink" href="javascript: LVCGame.reloadWithParam({'offset':'max'});">
+            <img class="imagetight" src="/media/images/arrow_end.gif" alt="end" title="End"/>
+        </a>
+    </div>
+    <table id="diagnosticsTable">
+        <thead>
+            <tr>
+                <th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=1&amp;sort={sort}'">Creator&nbsp;{col_1}</th>
+				<th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=3&amp;sort={sort}'">Marking&nbsp;{col_3}</th>
+                <th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=5&amp;sort={sort}'">Position&nbsp;{col_5}</th>
+                <th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=7&amp;sort={sort}'">Enumeration&nbsp;{col_7}</th>
+                <th class="text-center" rowspan="2" onclick="document.location='/diagnostics/entitystore/?col=9&amp;sort={sort}'">Force&nbsp;{col_9}</th>
+                <th class="text-center" rowspan="2" onclick="document.location='/diagnostics/entitystore/?col=10&amp;sort={sort}'">Status&nbsp;{col_10}</th>
+                <th class="text-center" rowspan="2" onclick="document.location='/diagnostics/entitystore/?col=11&amp;sort={sort}'">Damage&nbsp;{col_11}</th>
+            </tr>
+            <tr>
+				<th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=2&amp;sort={sort}'" name="asFD">Host ID&nbsp;{col_2}</th>
+                <th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=4&amp;sort={sort}'">Mapping&nbsp;{col_4}</th>
+                <th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=6&amp;sort={sort}'">Altitude&nbsp;(AMSL)&nbsp;{col_6}</th>
+                <th class="text-center" rowspan="1" onclick="document.location='/diagnostics/entitystore/?col=8&amp;sort={sort}'">Speed&nbsp;(m/s)&nbsp;{col_8}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {diagnosticsTableBody}
+        </tbody>
+    </table>
+</div>
