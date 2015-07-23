@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Text 101\Assets\TextController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NumberWizard.cs">
     <Files>
-      <File FileName="..\Text 101\Assets\TextController.cs" Line="58" Column="4" />
+      <File FileName="Assets\Scripts\NumberWizard.cs" Line="51" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

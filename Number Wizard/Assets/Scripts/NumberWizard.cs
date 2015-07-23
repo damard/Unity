@@ -3,7 +3,9 @@ using System.Collections;
 
 public class NumberWizard : MonoBehaviour {
 	
-	int max, min, guess;
+	int max;
+	int min;
+	int guess;
 
 	// Use this for initialization
 	void Start () {

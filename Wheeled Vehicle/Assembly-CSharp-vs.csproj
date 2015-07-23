@@ -46,10 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraVehicle1stPerson.cs" />
+     <Compile Include="Assets\Scripts\CameraVehicle3rdPerson.cs" />
      <Compile Include="Assets\Scripts\Old\CameraVehicule3rdPersonController.cs" />
      <Compile Include="Assets\Scripts\Old\SimpleCarController.cs" />
      <Compile Include="Assets\Scripts\Tank.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonFollowCamera.cs" />
      <Compile Include="Assets\Scripts\VehicleDebugger.cs" />
      <Compile Include="Assets\Scripts\VehicleEngine.cs" />
      <Compile Include="Assets\Scripts\WheeledVehicle.cs" />
@@ -60,6 +61,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
@@ -142,6 +144,10 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{00B7DF5E-CFBD-97AC-5D3E-0FCBE07580E4}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

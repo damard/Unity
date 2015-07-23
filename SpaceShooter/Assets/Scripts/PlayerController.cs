@@ -37,17 +37,17 @@ public class PlayerController : MonoBehaviour
 
 		//Update player speed
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-		rigidbody.velocity = movement * speed;
+		GetComponent<Rigidbody>().velocity = movement * speed;
 
 		//Constrain position
-		rigidbody.position = new Vector3
+		GetComponent<Rigidbody>().position = new Vector3
 		(
-			Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax),
+			Mathf.Clamp (GetComponent<Rigidbody>().position.x, boundary.xMin, boundary.xMax),
 			0,
-			Mathf.Clamp (rigidbody.position.z, boundary.zMin, boundary.zMax)
+			Mathf.Clamp (GetComponent<Rigidbody>().position.z, boundary.zMin, boundary.zMax)
 		);
 
 		//Tilt spaceship
-		rigidbody.rotation = Quaternion.Euler (0.0f, 0.0f, rigidbody.velocity.x * -tilt);
+		GetComponent<Rigidbody>().rotation = Quaternion.Euler (0.0f, 0.0f, GetComponent<Rigidbody>().velocity.x * -tilt);
 	}
 }
