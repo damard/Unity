@@ -4,15 +4,15 @@ using System.Collections;
 public class VehicleEngine : MonoBehaviour {
 
 	public float[] torqueCurve = new float[11]{400, 420, 440, 445, 450, 465, 480, 490, 480, 450, 400}; //500 rpm increments
-	public float minEngineRPM = 1000;
-	public float maxEngineRPM = 6000;
+	public float minEngineRPM = 1000f;
+	public float maxEngineRPM = 6000f;
 	private float curEngineRPM;
 
-	public float[] gearRatios = new float[7]{2.66, 0, 1.78, 1.30, 1.0, 0.74, 0.5}; //R, N, 1, 2, 3, 4, 5, 6
+	public float[] gearRatios = new float[7]{-2.66f, 0f, 1.78f, 1.30f, 1.0f, 0.74f, 0.5f}; //R, N, 1, 2, 3, 4, 5, 6
 	public int currentGear;
 
-	public float differentialRatio = 3.42;
-	public float transmissionEfficiency = 0.7; //assumes a 30% energy loss in heat, etc.
+	public float differentialRatio = 3.42f;
+	public float transmissionEfficiency = 0.7f; //assumes a 30% energy loss in heat, etc.
 
 	public float wheelRadius; //in meters
 	private float wheelCircumference;
@@ -25,7 +25,7 @@ public class VehicleEngine : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
 	{
-		wheelCircumference = 2.0 * wheelRadius * Mathf.PI;
+		wheelCircumference = 2.0f * wheelRadius * Mathf.PI;
 		currentGear = 1;
 	}
 	
@@ -55,6 +55,7 @@ public class VehicleEngine : MonoBehaviour {
 		float infTorque = torqueCurve [Mathf.FloorToInt (rpmRatio)];
 		float supTorque = torqueCurve [Mathf.CeilToInt (rpmRatio)];
 		float actualTorque = infTorque + (supTorque - infTorque) * (rpmRatio % Mathf.Floor (rpmRatio));
+		return actualTorque;
 	}
 	
 }
