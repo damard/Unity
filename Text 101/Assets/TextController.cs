@@ -106,7 +106,7 @@ public class TextController : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.R)) {myState = States.corridor_2;}
 	}
 	void cell () {
-		text.text = "You are in a prison cell, and you want to escape. There are " +
+		text.text = "Gareth, you are in a prison cell, and you want to escape. There are " +
 					"some dirty sheets on the bed, a mirror on the wall, and the door " +
 					"is locked from the outside.\n\n" +
 					"Press S to view Sheets, M to view Mirror and L to view Lock" ;

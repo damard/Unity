@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\SurvivalShooter\Assets\Scripts\Player\PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DestroyByContact.cs">
     <Files>
-      <File FileName="..\SurvivalShooter\Assets\Scripts\Player\PlayerMovement.cs" Line="40" Column="23" />
+      <File FileName="Assets\Scripts\DestroyByContact.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
