@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NumberWizardUI.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Block Breaker\Assets\Scripts\LoseCollider.cs">
     <Files>
-      <File FileName="Assets\Scripts\NumberWizardUI.cs" Line="43" Column="3" />
+      <File FileName="..\Block Breaker\Assets\Scripts\LoseCollider.cs" Line="9" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
